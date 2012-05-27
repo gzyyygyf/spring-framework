@@ -3,8 +3,8 @@ SPRING FRAMEWORK CHANGELOG
 http://www.springsource.org
 
 
-Changes in version 3.2 M1
--------------------------------------
+Changes in version 3.2 M1 (2012-05-??)
+--------------------------------------
 
 * add Servlet 3.0-based async support
 * upgrade to AspectJ 1.6.12, JUnit 4.10, TestNG 6.5.2
@@ -34,7 +34,11 @@ Changes in version 3.2 M1
 * support initial delay attribute for scheduled tasks (SPR-7022)
 * cache by-type lookups in DefaultListableBeanFactory (SPR-6870)
 * merge rather than add URI vars to data binding values (SPR-9349)
-* Support not (!) operator for profile selection (SPR-8728)
+* support not (!) operator for profile selection (SPR-8728)
+* fix regression in ClassPathResource descriptions (SPR-9413)
+* improve documentation of @Bean 'lite' mode (SPR-9401)
+* improve documentation of annotated class support in the TestContext framework (SPR-9401)
+* document support for JSR-250 lifecycle annotations in the TestContext framework (SPR-4868)
 
 
 Changes in version 3.1.1 (2012-02-16)
